@@ -1,0 +1,41 @@
+.container {
+  margin-left: 30%;
+
+  height: auto;
+  width: 300px;
+  border: 2px solid red;
+  padding: 40px 100px;
+}
+#taskInput {
+  height: 50px;
+  width: 300px;
+  border: 2px solid goldenrod;
+  font-size: 25px;
+  color: rgb(209, 27, 27);
+
+  background-color: darkgray;
+  border-radius: 5%;
+  flex-direction: column;
+}
+#taskInput:hover {
+  background-color: whitesmoke;
+
+  border: none;
+}
+#addTaskButton {
+  height: 50px;
+  width: 45px;
+  background-color: rgb(51, 242, 64);
+  border-radius: 30%;
+  font-weight: bold;
+}
+#addTaskButton:hover {
+  background-color: blue;
+  transition: 0.3s ease-in;
+  color: white;
+}
+#taskOutput {
+  font-size: 30px;
+  gap: 10px;
+  text-transform: capitalize;
+}
